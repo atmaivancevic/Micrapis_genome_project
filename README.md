@@ -41,46 +41,46 @@ Scripts and workflows used in
    3) [nanostat.sbatch](genome_assembly/nanostat.sbatch)
 
 2. **Assembly**  
-   1) [flye_assembly.sbatch](genome_assembly/flye_assembly.sh)  
-   2) [medaka_polish.sbatch](genome_assembly/medaka_polish.sh)  
+   1) [flye_assembly.sbatch](genome_assembly/flye_assembly.sbatch)  
+   2) [medaka_polish.sbatch](genome_assembly/medaka_polish.sbatch)  
 
 3. **Illumina preprocessing and mapping**  
-   1) [bbduk_trim_genome.sbatch](genome_assembly/bbduk_trim_genome.sh)  
-   2) [bwa_mem_align.sbatch](genome_assembly/bwa_mem_align.sh)  
-   3) [samtools_sort_index.sbatch](genome_assembly/samtools_sort_index.sh)
+   1) [bbduk_trim_genome.sbatch](genome_assembly/bbduk_trim_genome.sbatch)  
+   2) [bwa_mem_align.sbatch](genome_assembly/bwa_mem_align.sbatch)  
+   3) [samtools_sort_index.sbatch](genome_assembly/samtools_sort_index.sbatch)
 
 4. **Assembly polishing with short reads**
-   1) [pilon_polish.sbatch](genome_assembly/pilon_polish.sh)
+   1) [pilon_polish.sbatch](genome_assembly/pilon_polish.sbatch)
 
 5. **Contig filtering and contamination screening**  
-   1) [vsearch_filter_contigs.sbatch](genome_assembly/vsearch_filter_contigs.sh)  
-   2) [fcs_adaptor.sbatch](genome_assembly/fcs_adaptor.sh)  
-   3) [fcs_gx.sbatch](genome_assembly/fcs_gx.sh)
+   1) [vsearch_filter_contigs.sbatch](genome_assembly/vsearch_filter_contigs.sbatch)  
+   2) [fcs_adaptor.sbatch](genome_assembly/fcs_adaptor.sbatch)  
+   3) [fcs_gx.sbatch](genome_assembly/fcs_gx.sbatch)
 
 6. **Genome assessment**  
-   1) [quast_report.sbatch](genome_assembly/quast_report.sh)  
-   2) [busco_genome.sbatch](genome_assembly/busco_genome.sh)  
-   3) [meryl_merqury.sbatch](genome_assembly/meryl_merqury.sh)
+   1) [quast_report.sbatch](genome_assembly/quast_report.sbatch)  
+   2) [busco_genome.sbatch](genome_assembly/busco_genome.sbatch)  
+   3) [meryl_merqury.sbatch](genome_assembly/meryl_merqury.sbatch)
 
 ---
 
 ### Transcriptome Assembly and Annotation Workflow
 
 1. **ONT cDNA processing**  
-   1) [dorado_basecall_cDNA.sbatch](transcriptome_assembly/dorado_basecall_cDNA.sh)  
-   2) [pychopper_trim.sbatch](transcriptome_assembly/pychopper_trim.sh)  
-   3) [nanostat_cDNA_summary.sbatch](transcriptome_assembly/nanostat_cDNA_summary.sh)
+   1) [dorado_basecall_cDNA.sbatch](transcriptome_assembly/dorado_basecall_cDNA.sbatch)  
+   2) [pychopper_trim.sbatch](transcriptome_assembly/pychopper_trim.sbatch)  
+   3) [nanostat_cDNA_summary.sbatch](transcriptome_assembly/nanostat_cDNA_summary.sbatch)
 
 2. **Illumina RNA-seq processing**  
-   1) [bbduk_trim_rnaseq.sbatch](transcriptome_assembly/bbduk_trim_rnaseq.sh)  
-   2) [hisat2_index_align.sbatch](transcriptome_assembly/hisat2_index_align.sh)  
-   3) [samtools_merge.sbatch](transcriptome_assembly/samtools_merge.sh)
+   1) [bbduk_trim_rnaseq.sbatch](transcriptome_assembly/bbduk_trim_rnaseq.sbatch)  
+   2) [hisat2_index_align.sbatch](transcriptome_assembly/hisat2_index_align.sbatch)  
+   3) [samtools_merge.sbatch](transcriptome_assembly/samtools_merge.sbatch)
 
 3. **Transcriptome assembly and gene prediction**  
-   1) [braker3_annotation.sbatch](transcriptome_assembly/braker3_annotation.sh)  
+   1) [braker3_annotation.sbatch](transcriptome_assembly/braker3_annotation.sbatch)  
   
 4. **Transcriptome assessment**  
-   1) [busco_proteome.sbatch](transcriptome_assembly/busco_proteome.sh)
+   1) [busco_proteome.sbatch](transcriptome_assembly/busco_proteome.sbatch)
 
 ---
 
