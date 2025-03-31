@@ -84,8 +84,7 @@
 ### Notes:
 
 - All software was run with default settings unless otherwise shown.  
-- Protein homology for BRAKER3 was provided using OrthoDB v12 Arthropoda dataset located here:  
-  [https://bioinf.uni-greifswald.de/bioinf/partitioned_odb12](https://bioinf.uni-greifswald.de/bioinf/partitioned_odb12)
+- Protein homology for BRAKER3 was provided using OrthoDB v12 Arthropoda dataset located here: https://bioinf.uni-greifswald.de/bioinf/partitioned_odb12
 
 ---
 
