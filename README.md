@@ -14,22 +14,22 @@
 - **Flye** v2.9.5 https://github.com/fenderglass/Flye  
 - **Medaka** v2.0.0 https://github.com/nanoporetech/medaka  
 - **Pilon** v1.24 https://github.com/broadinstitute/pilon  
-- **BBMap/BBDuk** v38.05: https://sourceforge.net/projects/bbmap  
-- **BWA-MEM** v0.7.15: https://github.com/lh3/bwa  
-- **Samtools** v1.16.1: http://www.htslib.org/  
-- **QUAST** v5.2.0: https://github.com/ablab/quast  
-- **BUSCO** v5.7.1: https://busco.ezlab.org/  
-- **Meryl** v1.4.1 & **Merqury** v1.3: https://github.com/marbl/merqury  
-- **RepeatMasker** v4.1.7: https://www.repeatmasker.org/  
-- **Tandem Repeats Finder** v4.0.9: https://tandem.bu.edu/trf/trf.html  
-- **VSEARCH** v2.14.1: https://github.com/torognes/vsearch  
-- **Pychopper** v2.5.0: https://github.com/nanoporetech/pychopper  
-- **Minimap2** v2.22: https://github.com/lh3/minimap2  
-- **HISAT2** v2.1.0: https://daehwankimlab.github.io/hisat2/  
-- **BRAKER3**: https://github.com/Gaius-Augustus/BRAKER  
-- **StringTie2**: https://github.com/gpertea/stringtie  
-- **GffRead**: https://github.com/gpertea/gffread  
-- **DIAMOND**: https://github.com/bbuchfink/diamond  
+- **BBMap/BBDuk** v38.05 https://sourceforge.net/projects/bbmap  
+- **BWA-MEM** v0.7.15 https://github.com/lh3/bwa  
+- **Samtools** v1.16.1 http://www.htslib.org/  
+- **QUAST** v5.2.0 https://github.com/ablab/quast  
+- **BUSCO** v5.7.1 https://busco.ezlab.org/  
+- **Meryl** v1.4.1 & **Merqury** v1.3 https://github.com/marbl/merqury  
+- **RepeatMasker** v4.1.7 https://www.repeatmasker.org/  
+- **Tandem Repeats Finder** v4.0.9 https://tandem.bu.edu/trf/trf.html  
+- **VSEARCH** v2.14.1 https://github.com/torognes/vsearch  
+- **Pychopper** v2.5.0 https://github.com/nanoporetech/pychopper  
+- **Minimap2** v2.22 https://github.com/lh3/minimap2  
+- **HISAT2** v2.1.0 https://daehwankimlab.github.io/hisat2/  
+- **BRAKER3** https://github.com/Gaius-Augustus/BRAKER  
+- **StringTie2** https://github.com/gpertea/stringtie  
+- **GffRead** https://github.com/gpertea/gffread  
+- **DIAMOND** https://github.com/bbuchfink/diamond  
 
 ---
 
