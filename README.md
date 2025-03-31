@@ -6,6 +6,8 @@
 \*co-first authors  
 \+co-last authors
 
+---
+
 ## Programs used:
 
 - **Dorado** v0.7.2: https://github.com/nanoporetech/dorado  
@@ -29,12 +31,16 @@
 - **GffRead**: https://github.com/gpertea/gffread  
 - **DIAMOND**: https://github.com/bbuchfink/diamond  
 
+---
 
 
 
 
 
-## All raw and processed data are publicly available:
+
+
+
+## All raw and processed data are publicly available in the following repositories:
 
 #### NCBI BioProject:
 _Apis andreniformis_
