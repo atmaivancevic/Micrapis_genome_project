@@ -6,7 +6,7 @@
 \*co-first authors  
 \+co-last authors
 
-## All raw and processed data are publicly available in the following repositories:
+## All raw and processed data are publicly available:
 
 #### NCBI BioProject:
 _Apis andreniformis_
