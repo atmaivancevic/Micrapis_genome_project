@@ -47,7 +47,6 @@ Scripts and workflows used in
 3. **Illumina preprocessing and mapping**  
    1) [bbduk_trim.sbatch](genome_assembly/bbduk_trim.sbatch)  
    2) [bwa_mem_align.sbatch](genome_assembly/bwa_mem_align.sbatch)  
-   3) [samtools_sort_index.sbatch](genome_assembly/samtools_sort_index.sbatch)
 
 4. **Assembly polishing with short reads**
    1) [pilon_polish.sbatch](genome_assembly/pilon_polish.sbatch)
