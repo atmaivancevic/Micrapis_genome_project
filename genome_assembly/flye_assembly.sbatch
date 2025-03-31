@@ -3,7 +3,7 @@
 ## Script for running flye for genome assembly
 ##
 ## Example usage:
-## inDir=Aa1SG1_ONT_reads.fastq outDir=andreniformis_flye genomeSize=230m sbatch flye_assembly.sbatch
+## inDir=Aa1SG1_ONT.fastq outDir=andreniformis_flye genomeSize=230m sbatch flye_assembly.sbatch
 
 # General settings
 #SBATCH -p long
