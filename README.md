@@ -10,10 +10,10 @@
 
 ### Programs used:
 
-- **Dorado** v0.7.2: https://github.com/nanoporetech/dorado  
-- **Flye** v2.9.5: https://github.com/fenderglass/Flye  
-- **Medaka** v2.0.0: https://github.com/nanoporetech/medaka  
-- **Pilon** v1.24: https://github.com/broadinstitute/pilon  
+- **Dorado** v0.7.2 https://github.com/nanoporetech/dorado  
+- **Flye** v2.9.5 https://github.com/fenderglass/Flye  
+- **Medaka** v2.0.0 https://github.com/nanoporetech/medaka  
+- **Pilon** v1.24 https://github.com/broadinstitute/pilon  
 - **BBMap/BBDuk** v38.05: https://sourceforge.net/projects/bbmap  
 - **BWA-MEM** v0.7.15: https://github.com/lh3/bwa  
 - **Samtools** v1.16.1: http://www.htslib.org/  
