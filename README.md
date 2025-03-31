@@ -92,11 +92,11 @@
 ### Raw and processed data are publicly available in the following repositories:
 
 #### NCBI BioProject:
-_Apis andreniformis_
+_Apis andreniformis_  
 Genome sequencing and assembly: NCBI BioProject [PRJNA1217036](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1217036)  
 Transcriptome sequencing: NCBI BioProject [PRJNA1217108](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1217108)
 
-_Apis florea_
+_Apis florea_  
 Genome sequencing and assembly: NCBI BioProject [PRJNA1217041](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1217041)  
 Transcriptome sequencing: NCBI BioProject [PRJNA1217110](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1217110)
 
