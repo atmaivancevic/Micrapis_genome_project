@@ -45,7 +45,7 @@ Scripts and workflows used in
    2) [medaka_consensus.sbatch](genome_assembly/medaka_consensus.sbatch)  
 
 3. **Illumina preprocessing and mapping**  
-   1) [bbduk_trim_genome.sbatch](genome_assembly/bbduk_trim_genome.sbatch)  
+   1) [bbduk_trim.sbatch](genome_assembly/bbduk_trim.sbatch)  
    2) [bwa_mem_align.sbatch](genome_assembly/bwa_mem_align.sbatch)  
    3) [samtools_sort_index.sbatch](genome_assembly/samtools_sort_index.sbatch)
 
