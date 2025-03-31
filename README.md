@@ -101,7 +101,7 @@ _Apis florea_
 2. Transcriptome sequencing: NCBI BioProject [PRJNA1217110](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1217110)
 
 #### GenBank:
-_Apis andreniformis_ assembly ASM4859352v1: [GCA_048593525.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_048593525.1/)
+_Apis andreniformis_ assembly ASM4859352v1: [GCA_048593525.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_048593525.1/)  
 _Apis florea_ assembly ASM4859348v1: [GCA_048593485.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_048593485.1/)
 
 #### Zenodo:
