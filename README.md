@@ -8,7 +8,7 @@
 
 ---
 
-### Programs used:
+## Programs used:
 
 - **Dorado** v0.7.2: https://github.com/nanoporetech/dorado  
 - **Flye** v2.9.5: https://github.com/fenderglass/Flye  
