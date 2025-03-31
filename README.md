@@ -42,7 +42,7 @@ Scripts and workflows used in
 
 2. **Assembly**  
    1) [flye_assembly.sbatch](genome_assembly/flye_assembly.sbatch)  
-   2) [medaka_polish.sbatch](genome_assembly/medaka_polish.sbatch)  
+   2) [medaka_consensus.sbatch](genome_assembly/medaka_consensus.sbatch)  
 
 3. **Illumina preprocessing and mapping**  
    1) [bbduk_trim_genome.sbatch](genome_assembly/bbduk_trim_genome.sbatch)  
