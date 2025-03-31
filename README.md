@@ -35,26 +35,28 @@
 
 ### Genome Assembly and Polishing Workflow
 
-1. **ONT basecalling + demultiplexing**  
+1. **ONT basecalling and demultiplexing**  
    1) [dorado_basecall.sh](genome_assembly/dorado_basecall.sbatch)
    2) [dorado_demux.sh](genome_assembly/dorado_demux.sbatch)
 
 2. **Assembly**  
    1) [flye_assembly.sh](genome_assembly/flye_assembly.sh)  
    2) [medaka_polish.sh](genome_assembly/medaka_polish.sh)  
-   3) [pilon_polish.sh](genome_assembly/pilon_polish.sh)
 
-3. **Short-read preprocessing and mapping**  
+3. **Illumina preprocessing and mapping**  
    1) [bbduk_trim_genome.sh](genome_assembly/bbduk_trim_genome.sh)  
    2) [bwa_mem_align.sh](genome_assembly/bwa_mem_align.sh)  
    3) [samtools_sort_index.sh](genome_assembly/samtools_sort_index.sh)
 
-4. **Contig filtering and contamination screening**  
+4. **Assembly polishing with short reads**
+   1) [pilon_polish.sh](genome_assembly/pilon_polish.sh)
+
+5. **Contig filtering and contamination screening**  
    1) [vsearch_filter_contigs.sh](genome_assembly/vsearch_filter_contigs.sh)  
    2) [fcs_adaptor.sh](genome_assembly/fcs_adaptor.sh)  
    3) [fcs_gx.sh](genome_assembly/fcs_gx.sh)
 
-5. **Assembly QC**  
+6. **Genome assessment**  
    1) [quast_report.sh](genome_assembly/quast_report.sh)  
    2) [busco_genome.sh](genome_assembly/busco_genome.sh)  
    3) [meryl_merqury.sh](genome_assembly/meryl_merqury.sh)
@@ -73,12 +75,11 @@
    2) [hisat2_index_align.sh](transcriptome_assembly/hisat2_index_align.sh)  
    3) [samtools_merge.sh](transcriptome_assembly/samtools_merge.sh)
 
-3. **Transcript assembly and gene prediction**  
-   1) [stringtie_assemble.sh](transcriptome_assembly/stringtie_assemble.sh)  
-   2) [braker3_annotation.sh](transcriptome_assembly/braker3_annotation.sh)  
-   3) [diamond_align_orthodb.sh](transcriptome_assembly/diamond_align_orthodb.sh)  
-   4) [gffread_filter.sh](transcriptome_assembly/gffread_filter.sh)  
-   5) [busco_proteome.sh](transcriptome_assembly/busco_proteome.sh)
+3. **Transcriptome assembly and gene prediction**  
+   1) [braker3_annotation.sh](transcriptome_assembly/braker3_annotation.sh)  
+  
+4. **Transcriptome assessment**  
+   1) [busco_proteome.sh](transcriptome_assembly/busco_proteome.sh)
 
 ---
 
