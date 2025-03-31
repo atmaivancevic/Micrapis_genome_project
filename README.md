@@ -55,7 +55,8 @@ Scripts and workflows used in
 5. **Quality assessment**  
    1) [quast_report.sbatch](genome_assembly/quast_report.sbatch)  
    2) [busco_genome.sbatch](genome_assembly/busco_genome.sbatch)  
-   3) [meryl_merqury.sbatch](genome_assembly/meryl_merqury.sbatch)
+   3) [meryl_count.sbatch](genome_assembly/meryl_count.sbatch)
+   4) [merqury_kmers.sbatch](genome_assembly/merqury_kmers.sbatch)
 
 6. **Repeat annotation**
    1) [repeatmasker.sbatch](genome_assembly/repeatmasker.sbatch)  
