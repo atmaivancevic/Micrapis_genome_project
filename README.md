@@ -48,18 +48,21 @@ Scripts and workflows used in
    1) [bbduk_trim.sbatch](genome_assembly/bbduk_trim.sbatch)  
    2) [bwa_mem_align.sbatch](genome_assembly/bwa_mem_align.sbatch)  
 
-4. **Assembly polishing with short reads**
-   1) [pilon_polish.sbatch](genome_assembly/pilon_polish.sbatch)
-
-5. **Contig filtering and contamination screening**  
+4. **Assembly polishing and filtering**
+   1) [pilon_polish.sbatch](genome_assembly/pilon_polish.sbatch) 
    1) [vsearch_filter.sbatch](genome_assembly/vsearch_filter.sbatch)  
-   2) [fcs_adaptor.sbatch](genome_assembly/fcs_adaptor.sbatch)  
-   3) [fcs_gx.sbatch](genome_assembly/fcs_gx.sbatch)
 
-6. **Genome assessment**  
+5. **Quality assessment**  
    1) [quast_report.sbatch](genome_assembly/quast_report.sbatch)  
    2) [busco_genome.sbatch](genome_assembly/busco_genome.sbatch)  
    3) [meryl_merqury.sbatch](genome_assembly/meryl_merqury.sbatch)
+
+6. **Repeat annotation**
+   1) [repeatmasker.sbatch](genome_assembly/repeatmasker.sbatch)  
+
+7. **Contamination screening**
+   1) [fcs_adaptor.sbatch](genome_assembly/fcs_adaptor.sbatch)  
+   2) [fcs_gx.sbatch](genome_assembly/fcs_gx.sbatch)
 
 ---
 
@@ -75,10 +78,10 @@ Scripts and workflows used in
    2) [hisat2_index_align.sbatch](transcriptome_assembly/hisat2_index_align.sbatch)  
    3) [samtools_merge.sbatch](transcriptome_assembly/samtools_merge.sbatch)
 
-3. **Transcriptome assembly and gene prediction**  
+3. **Transcript assembly and gene prediction**  
    1) [braker3_annotation.sbatch](transcriptome_assembly/braker3_annotation.sbatch)  
   
-4. **Transcriptome assessment**  
+4. **Quality assessment**  
    1) [busco_proteome.sbatch](transcriptome_assembly/busco_proteome.sbatch)
 
 ---
