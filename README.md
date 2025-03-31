@@ -33,7 +33,7 @@
 
 ---
 
-### Genome assembly and polishing workflow:
+### Genome Assembly and Polishing Workflow
 
 1. **ONT basecalling + demultiplexing**  
    1) [dorado_basecall.sh](genome_assembly/dorado_basecall.sbatch)
@@ -61,7 +61,7 @@
 
 ---
 
-### Transcriptome assembly and annotation workflow:
+### Transcriptome Assembly and Annotation Workflow
 
 1. **ONT cDNA processing**  
    1) [dorado_basecall_cDNA.sh](transcriptome_assembly/dorado_basecall_cDNA.sh)  
