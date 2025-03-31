@@ -1,6 +1,6 @@
 # Micrapis_genome_project
 
-## Analysis scripts used in:
+### Analysis scripts used in:
 "De novo genome assemblies of the dwarf honey bee subgenus Micrapis: Apis andreniformis and Apis florea" (2025) Atma Ivancevic*, Madison Sankovitz*, Holly Allen, Olivia Joyner, Edward B. Chuong+, Samuel Ramsey+
 
 \*co-first authors  
@@ -8,7 +8,7 @@
 
 ---
 
-## Programs used:
+### Programs used:
 
 - **Dorado** v0.7.2: https://github.com/nanoporetech/dorado  
 - **Flye** v2.9.5: https://github.com/fenderglass/Flye  
@@ -33,7 +33,7 @@
 
 ---
 
-## Genome Assembly and Polishing Workflow
+### Genome Assembly and Polishing Workflow
 
 1. **ONT basecalling + demultiplexing**  
    `dorado_basecall_and_demux.sh`
@@ -60,7 +60,7 @@
 
 ---
 
-## Transcriptome Assembly and Annotation Workflow
+### Transcriptome Assembly and Annotation Workflow
 
 1. **ONT cDNA processing**  
    `dorado_basecall_cDNA.sh`  
@@ -81,7 +81,7 @@
 
 ---
 
-## Notes
+### Notes
 
 - All software was run with default settings unless otherwise shown.  
 - Protein homology for BRAKER3 was provided using OrthoDB Arthropoda dataset (v12):  
@@ -89,7 +89,7 @@
 
 ---
 
-## Raw and processed data are publicly available in the following repositories:
+### Raw and processed data are publicly available in the following repositories:
 
 #### NCBI BioProject:
 _Apis andreniformis_
