@@ -37,8 +37,8 @@ conda activate medaka_env
 # If unsure which medaka model to pick, you can check the report.json file for your sequencing run
 # E.g. in my case, report_PAO05592_20240627_1412_3dc7722d.json includes the following:
 # "name":"sequencing/sequencing_PRO114_DNA_e8_2_400K"
-# and I basecalled the pod5 files using dorado SUP
-# so for me, r1041_e82_400bps_sup_v5.0.0 is the most suitable medaka model to use
+# and the pod5 files were basecalled using dorado SUP
+# so r1041_e82_400bps_sup_v5.0.0 is the most suitable medaka model to use
 
 pwd; hostname; date
 echo "medaka version: "$(medaka --version)
