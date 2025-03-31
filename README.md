@@ -96,12 +96,12 @@
 
 #### NCBI BioProject:
 _Apis andreniformis_  
-   1) Genome sequencing and assembly: NCBI BioProject [PRJNA1217036](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1217036)  
-   2) Transcriptome sequencing: NCBI BioProject [PRJNA1217108](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1217108)
+Genome sequencing and assembly: NCBI BioProject [PRJNA1217036](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1217036)  
+Transcriptome sequencing: NCBI BioProject [PRJNA1217108](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1217108)
 
 _Apis florea_  
-   1) Genome sequencing and assembly: NCBI BioProject [PRJNA1217041](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1217041)  
-   2) Transcriptome sequencing: NCBI BioProject [PRJNA1217110](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1217110)
+Genome sequencing and assembly: NCBI BioProject [PRJNA1217041](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1217041)  
+Transcriptome sequencing: NCBI BioProject [PRJNA1217110](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1217110)
 
 #### GenBank:
 _Apis andreniformis_ assembly ASM4859352v1: [GCA_048593525.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_048593525.1/)  
