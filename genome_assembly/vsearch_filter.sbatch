@@ -3,8 +3,8 @@
 ## Script for running vsearch to sort by length and filter short contigs
 ##
 ## Example usage:
-## inFasta=../andreniformis_pilon/Af1SG1.fasta \
-## outFasta=../andreniformis_pilon/Af1SG1_minLength3kb.fasta \
+## inFasta=../andreniformis_pilon/Aa1SG1.fasta \
+## outFasta=../andreniformis_pilon/Aa1SG1_minLength3kb.fasta \
 ## sbatch vsearch_filter.sbatch
 
 # SLURM settings
