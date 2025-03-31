@@ -4,7 +4,7 @@
 ##
 ## Example usage:
 ## inFasta=../andreniformis_pilon/Af1SG1.fasta \
-## outFasta=../andreniformis_pilon/Af1SG1_sortedByLength_minLength3kb.fasta \
+## outFasta=../andreniformis_pilon/Af1SG1_minLength3kb.fasta \
 ## sbatch vsearch_filter.sbatch
 
 # SLURM settings
