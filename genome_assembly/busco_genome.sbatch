@@ -6,7 +6,7 @@
 ## prefix=hymenoptera lib=hymenoptera_odb10 \
 ## inFile=../andreniformis_pilon/Af1SG1_minLength3kb.fasta \
 ## outDir=../andreniformis_busco \
-## sbatch busco.sbatch
+## sbatch busco_genome.sbatch
 
 # General settings
 #SBATCH -p short
