@@ -36,9 +36,9 @@
 ### Genome Assembly and Polishing Workflow
 
 1. **ONT basecalling and demultiplexing**  
-   1) [dorado_basecall.sh](genome_assembly/dorado_basecall.sbatch)
-   2) [dorado_demux.sh](genome_assembly/dorado_demux.sbatch)
-   3) [nanostat.sh](genome_assembly/nanostat.sbatch)
+   1) [dorado_basecall.sbatch](genome_assembly/dorado_basecall.sbatch)
+   2) [dorado_demux.sbatch](genome_assembly/dorado_demux.sbatch)
+   3) [nanostat.sbatch](genome_assembly/nanostat.sbatch)
 
 2. **Assembly**  
    1) [flye_assembly.sh](genome_assembly/flye_assembly.sh)  
