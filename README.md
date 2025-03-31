@@ -33,7 +33,7 @@
 
 ---
 
-### Genome Assembly and Polishing Workflow
+### Genome assembly and polishing workflow:
 
 1. **ONT basecalling + demultiplexing**  
    `dorado_basecall_and_demux.sh`
@@ -60,7 +60,7 @@
 
 ---
 
-### Transcriptome Assembly and Annotation Workflow
+### Transcriptome assembly and annotation workflow:
 
 1. **ONT cDNA processing**  
    `dorado_basecall_cDNA.sh`  
@@ -81,7 +81,7 @@
 
 ---
 
-### Notes
+### Notes:
 
 - All software was run with default settings unless otherwise shown.  
 - Protein homology for BRAKER3 was provided using OrthoDB Arthropoda dataset (v12):  
