@@ -36,48 +36,48 @@
 ### Genome assembly and polishing workflow:
 
 1. **ONT basecalling + demultiplexing**  
-   `dorado_basecall_and_demux.sh`
+   1) [dorado_basecall_and_demux.sh](genome_assembly/dorado_basecall_and_demux.sh)
 
 2. **Assembly**  
-   `flye_assembly.sh`  
-   `medaka_polish.sh`  
-   `pilon_polish.sh`
+   1) [flye_assembly.sh](genome_assembly/flye_assembly.sh)  
+   2) [medaka_polish.sh](genome_assembly/medaka_polish.sh)  
+   3) [pilon_polish.sh](genome_assembly/pilon_polish.sh)
 
 3. **Short-read preprocessing and mapping**  
-   `bbduk_trim_genome.sh`  
-   `bwa_mem_align.sh`  
-   `samtools_sort_index.sh`
+   1) [bbduk_trim_genome.sh](genome_assembly/bbduk_trim_genome.sh)  
+   2) [bwa_mem_align.sh](genome_assembly/bwa_mem_align.sh)  
+   3) [samtools_sort_index.sh](genome_assembly/samtools_sort_index.sh)
 
 4. **Contig filtering and contamination screening**  
-   `vsearch_filter_contigs.sh`  
-   `fcs_adaptor.sh`  
-   `fcs_gx.sh`
+   1) [vsearch_filter_contigs.sh](genome_assembly/vsearch_filter_contigs.sh)  
+   2) [fcs_adaptor.sh](genome_assembly/fcs_adaptor.sh)  
+   3) [fcs_gx.sh](genome_assembly/fcs_gx.sh)
 
 5. **Assembly QC**  
-   `quast_report.sh`  
-   `busco_genome.sh`  
-   `meryl_merqury.sh`
+   1) [quast_report.sh](genome_assembly/quast_report.sh)  
+   2) [busco_genome.sh](genome_assembly/busco_genome.sh)  
+   3) [meryl_merqury.sh](genome_assembly/meryl_merqury.sh)
 
 ---
 
 ### Transcriptome assembly and annotation workflow:
 
 1. **ONT cDNA processing**  
-   `dorado_basecall_cDNA.sh`  
-   `pychopper_trim.sh`  
-   `nanostat_cDNA_summary.sh`
+   1) [dorado_basecall_cDNA.sh](transcriptome_assembly/dorado_basecall_cDNA.sh)  
+   2) [pychopper_trim.sh](transcriptome_assembly/pychopper_trim.sh)  
+   3) [nanostat_cDNA_summary.sh](transcriptome_assembly/nanostat_cDNA_summary.sh)
 
 2. **Illumina RNA-seq processing**  
-   `bbduk_trim_rnaseq.sh`  
-   `hisat2_index_align.sh`  
-   `samtools_merge.sh`
+   1) [bbduk_trim_rnaseq.sh](transcriptome_assembly/bbduk_trim_rnaseq.sh)  
+   2) [hisat2_index_align.sh](transcriptome_assembly/hisat2_index_align.sh)  
+   3) [samtools_merge.sh](transcriptome_assembly/samtools_merge.sh)
 
 3. **Transcript assembly and gene prediction**  
-   `stringtie_assemble.sh`  
-   `braker3_annotation.sh`  
-   `diamond_align_orthodb.sh`  
-   `gffread_filter.sh`  
-   `busco_proteome.sh`
+   1) [stringtie_assemble.sh](transcriptome_assembly/stringtie_assemble.sh)  
+   2) [braker3_annotation.sh](transcriptome_assembly/braker3_annotation.sh)  
+   3) [diamond_align_orthodb.sh](transcriptome_assembly/diamond_align_orthodb.sh)  
+   4) [gffread_filter.sh](transcriptome_assembly/gffread_filter.sh)  
+   5) [busco_proteome.sh](transcriptome_assembly/busco_proteome.sh)
 
 ---
 
