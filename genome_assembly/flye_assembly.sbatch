@@ -1,16 +1,16 @@
 #!/bin/bash
 
-## Script for running flye
+## Script for running flye for genome assembly
 ##
 ## Example usage:
-## inDir=dorado_corrected outDir=flye_assembly genomeSize=1.5g sbatch --array 0-0 flye.sbatch
+## inDir=Aa1SG1_ONT.fastq outDir=andreniformis_flye genomeSize=230m sbatch flye.sbatch
 
 # General settings
 #SBATCH -p long
 #SBATCH -N 1
 #SBATCH -c 32
 #SBATCH --time=100:00:00
-#SBATCH --mem=120GB
+#SBATCH --mem=128GB
 
 # Job name and output
 #SBATCH -J flye_nanohq
