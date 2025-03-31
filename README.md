@@ -1,6 +1,6 @@
 # Micrapis_genome_project
 
-### Analysis scripts used in:
+Analysis scripts used in:
 "De novo genome assemblies of the dwarf honey bee subgenus Micrapis: Apis andreniformis and Apis florea" (2025) Atma Ivancevic*, Madison Sankovitz*, Holly Allen, Olivia Joyner, Edward B. Chuong+, Samuel Ramsey+
 
 \*co-first authors  
@@ -8,7 +8,7 @@
 
 ---
 
-### Required Programs
+### Programs Used
 
 - **Dorado** v0.7.2 https://github.com/nanoporetech/dorado  
 - **Flye** v2.9.5 https://github.com/fenderglass/Flye  
