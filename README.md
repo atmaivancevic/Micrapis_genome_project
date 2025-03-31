@@ -84,7 +84,7 @@ Analysis scripts used in:
 
 ---
 
-### Notes:
+### Notes
 
 - All software was run with default settings unless otherwise shown.  
 - Protein homology for BRAKER3 was provided using OrthoDB v12 Arthropoda dataset located here:  
@@ -92,7 +92,7 @@ Analysis scripts used in:
 
 ---
 
-### Raw and processed data are publicly available in the following repositories:
+### Raw & Processed Data Links
 
 #### NCBI BioProject:
 _Apis andreniformis_  
