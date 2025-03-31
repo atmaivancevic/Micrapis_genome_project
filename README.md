@@ -52,7 +52,7 @@ Scripts and workflows used in
    1) [pilon_polish.sbatch](genome_assembly/pilon_polish.sbatch)
 
 5. **Contig filtering and contamination screening**  
-   1) [vsearch_filter_contigs.sbatch](genome_assembly/vsearch_filter_contigs.sbatch)  
+   1) [vsearch_filter.sbatch](genome_assembly/vsearch_filter.sbatch)  
    2) [fcs_adaptor.sbatch](genome_assembly/fcs_adaptor.sbatch)  
    3) [fcs_gx.sbatch](genome_assembly/fcs_gx.sbatch)
 
