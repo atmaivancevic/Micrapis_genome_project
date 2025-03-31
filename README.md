@@ -33,14 +33,63 @@
 
 ---
 
+## Genome Assembly and Polishing Workflow
 
+1. **ONT basecalling + demultiplexing**  
+   `dorado_basecall_and_demux.sh`
 
+2. **Assembly**  
+   `flye_assembly.sh`  
+   `medaka_polish.sh`  
+   `pilon_polish.sh`
 
+3. **Short-read preprocessing and mapping**  
+   `bbduk_trim_genome.sh`  
+   `bwa_mem_align.sh`  
+   `samtools_sort_index.sh`
 
+4. **Contig filtering and contamination screening**  
+   `vsearch_filter_contigs.sh`  
+   `fcs_adaptor.sh`  
+   `fcs_gx.sh`
 
+5. **Assembly QC**  
+   `quast_report.sh`  
+   `busco_genome.sh`  
+   `meryl_merqury.sh`
 
+---
 
-## All raw and processed data are publicly available in the following repositories:
+## Transcriptome Assembly and Annotation Workflow
+
+1. **ONT cDNA processing**  
+   `dorado_basecall_cDNA.sh`  
+   `pychopper_trim.sh`  
+   `nanostat_cDNA_summary.sh`
+
+2. **Illumina RNA-seq processing**  
+   `bbduk_trim_rnaseq.sh`  
+   `hisat2_index_align.sh`  
+   `samtools_merge.sh`
+
+3. **Transcript assembly and gene prediction**  
+   `stringtie_assemble.sh`  
+   `braker3_annotation.sh`  
+   `diamond_align_orthodb.sh`  
+   `gffread_filter.sh`  
+   `busco_proteome.sh`
+
+---
+
+## Notes
+
+- All software was run with default settings unless otherwise shown.  
+- Protein homology for BRAKER3 was provided using OrthoDB Arthropoda dataset (v12):  
+  [https://bioinf.uni-greifswald.de/bioinf/partitioned_odb12/Arthropoda.fa.gz](https://bioinf.uni-greifswald.de/bioinf/partitioned_odb12/Arthropoda.fa.gz)
+
+---
+
+## Raw and processed data are publicly available in the following repositories:
 
 #### NCBI BioProject:
 _Apis andreniformis_
