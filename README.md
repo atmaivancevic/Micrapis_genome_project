@@ -1,7 +1,7 @@
 # Micrapis_genome_project
 
 Scripts and workflows used in
-"De novo genome assemblies of the dwarf honey bee subgenus Micrapis: _Apis andreniformis_ and _Apis florea_" (2025) Atma Ivancevic*, Madison Sankovitz*, Holly Allen, Olivia Joyner, Edward B. Chuong+, Samuel Ramsey+
+"De novo genome assemblies of the dwarf honey bee subgenus _Micrapis_: _Apis andreniformis_ and _Apis florea_" (2025) Atma Ivancevic*, Madison Sankovitz*, Holly Allen, Olivia Joyner, Edward B. Chuong+, Samuel Ramsey+
 
 \*co-first authors  
 \+co-last authors
