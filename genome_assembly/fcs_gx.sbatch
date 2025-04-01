@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Script for running FCS-GX to screen and clean genome of non-eukaryotic contamination
+## Script for running FCS-GX to screen and clean genome of foreign contaminants
 ##
 ## Example usage:
 ## inFasta=../andreniformis_pilon/Aa1SG1_minLength3kb.fasta \
