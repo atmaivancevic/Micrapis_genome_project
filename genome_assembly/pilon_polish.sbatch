@@ -3,9 +3,9 @@
 ## Script for using Pilon to polish the long reads with short reads
 ## Example usage:
 ## prefix=Aa1SG1 \
-## assembly=../andreniformis_medaka/consensus.fasta \
-## bam=../andreniformis_illumina_bam/Aa1SG1_Illumina.sorted.bam \
-## outDir=../andreniformis_pilon \
+## assembly=andreniformis_medaka/consensus.fasta \
+## bam=andreniformis_illumina_bam/Aa1SG1_Illumina.sorted.bam \
+## outDir=andreniformis_pilon \
 ## sbatch --array 0-0 pilon_polish.sbatch
 
 ## General settings
