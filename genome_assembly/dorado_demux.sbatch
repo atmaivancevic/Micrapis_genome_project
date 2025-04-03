@@ -26,8 +26,8 @@ mkdir -p calls_default_parameters
 # default is to use all available GPUs (--device cuda:all)
 
 dorado demux \
---output-dir calls_default_parameters \
---no-classify calls_default_parameters.bam \
+--output-dir ONT_reads \
+--no-classify ONT_reads.bam \
 --emit-fastq
 
 echo $(date +"[%b %d %H:%M:%S] Done!")
