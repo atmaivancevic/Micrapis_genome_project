@@ -3,8 +3,8 @@
 ## Script for merging and indexing BAM files using samtools
 ##
 ## Example usage:
-## outBam=Aandren_illumina_RNAseq_merged.bam \
-## inBams="Aa1SG2_1A_S25.bam Aa1SG3_2A_S26.bam" \
+## outBam=andreniformis_illumina_RNAseq_bams/merged_illumina_RNAseq.bam \
+## inBams="andreniformis_illumina_RNAseq_bams/Aa1SG2_1A.bam andreniformis_illumina_RNAseq_bams/Aa1SG3_2A.bam" \
 ## sbatch samtools_merge.sbatch
 
 # SLURM settings
