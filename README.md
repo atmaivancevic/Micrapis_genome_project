@@ -74,7 +74,7 @@ Scripts and workflows used in
    2) [dorado_demux_cDNA.sbatch](transcriptome_assembly/dorado_demux_cDNA.sbatch)  
    3) [pychopper_trim.sbatch](transcriptome_assembly/pychopper_trim.sbatch)  
    4) [nanostat_cDNA.sbatch](transcriptome_assembly/nanostat_cDNA.sbatch)
-   5) [minimap2_align.sbatch](transcriptome_assembly/minimap2_align.sbatch)
+   5) [minimap2_align_cDNA.sbatch](transcriptome_assembly/minimap2_align_cDNA.sbatch)
 
 2. **Illumina RNA-seq processing**  
    1) [bbduk_trim_rnaseq.sbatch](transcriptome_assembly/bbduk_trim_rnaseq.sbatch)  
