@@ -27,6 +27,6 @@ echo $(date +"[%b %d %H:%M:%S] Running dorado basecaller...")
 
 # run dorado
 # default is to use all available GPUs (--device cuda:all)
-dorado basecaller sup pod5/ --kit-name SQK-PCB111-24 --no-trim > calls_no_trim.bam
+dorado basecaller sup cDNA_pod5/ --kit-name SQK-PCB111-24 --no-trim > cDNA_ONT_reads.bam
 
 echo $(date +"[%b %d %H:%M:%S] Done!")
