@@ -3,9 +3,9 @@
 ## Script for aligning long-read bams
 ##
 ## Example usage:
-## inDir=../andreniformis_pychopper_reads \
-## outDir=../andreniformis_ONT_bams \
-## genome=../genomes/Aa1SG1_genome.fasta \
+## inDir=pychopper_trimmed_reads \
+## outDir=andreniformis_ONT_cDNA_bams \
+## genome=final_genome/Aa1SG1_genome.fasta \
 ## sbatch --array 0-1 minimap2_align_cDNA.sbatch
 
 ## General settings
