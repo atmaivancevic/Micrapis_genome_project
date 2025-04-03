@@ -3,9 +3,9 @@
 ## Script for running FCS-adaptor to screen and clean genome of adapter/vector contamination
 ##
 ## Example usage:
-## inFasta=../andreniformis_pilon/Aa1SG1_minLength3kb.fasta \
-## outDir=../andreniformis_FCS \
-## cleanFasta=clean1.fasta \
+## inFasta=andreniformis_pilon/Aa1SG1_minLength3kb.fasta \
+## outDir=andreniformis_FCS \
+## cleanFasta=Aa1SG1_minLength3kb_clean1.fasta \
 ## sbatch fcs_adaptor.sbatch
 
 # SLURM settings
