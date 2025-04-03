@@ -24,6 +24,6 @@ echo $(date +"[%b %d %H:%M:%S] Running dorado demux...")
 
 # run dorado
 # default is to use all available GPUs (--device cuda:all)
-dorado demux --output-dir calls_no_trim --no-classify calls_no_trim.bam --emit-fastq --no-trim
+dorado demux --output-dir cDNA_ONT_reads_untrimmed --no-classify cDNA_ONT_reads.bam --emit-fastq --no-trim
 
 echo $(date +"[%b %d %H:%M:%S] Done!")
