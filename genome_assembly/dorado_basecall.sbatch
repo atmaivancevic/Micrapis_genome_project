@@ -27,6 +27,6 @@ echo $(date +"[%b %d %H:%M:%S] Running dorado basecallerin SUP mode...")
 
 # run dorado
 # default is to use all available GPUs (--device cuda:all)
-dorado basecaller sup pod5/ --kit-name SQK-NBD114-24 > calls_default_parameters.bam
+dorado basecaller sup pod5/ --kit-name SQK-NBD114-24 > ONT_reads.bam
 
 echo $(date +"[%b %d %H:%M:%S] Done!")
