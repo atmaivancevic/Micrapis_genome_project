@@ -3,7 +3,7 @@
 ## Script for running NanoStat
 ##
 ## Example usage:
-## inDir=calls_default_parameters outDir=stats_default_parameters sbatch --array 0-0 nanostat.sbatch
+## inDir=ONT_reads outDir=nanostats sbatch --array 0-0 nanostat.sbatch
 
 ## General settings
 #SBATCH -p short
