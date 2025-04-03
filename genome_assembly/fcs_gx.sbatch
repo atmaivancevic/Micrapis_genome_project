@@ -3,12 +3,12 @@
 ## Script for running FCS-GX to screen and clean genome of foreign contaminants
 ##
 ## Example usage:
-## inFasta=../andreniformis_pilon/Aa1SG1_minLength3kb.fasta \
-## outDir=../andreniformis_FCS \
+## inFasta=andreniformis_FCS/Aa1SG1_minLength3kb_clean1.fasta \
+## outDir=andreniformis_FCS \
 ## taxID=7464 \
-## reportFile=../andreniformis_FCS/Aa1SG1_minLength3kb.7464.fcs_gx_report.txt \
-## cleanFasta=../andreniformis_FCS/clean2.fasta \
-## contamFasta=../andreniformis_FCS/contam.fasta \
+## reportFile=andreniformis_FCS/Aa1SG1_minLength3kb.7464.fcs_gx_report.txt \
+## cleanFasta=andreniformis_FCS/Aa1SG1_minLength3kb_final.fasta \
+## contamFasta=andreniformis_FCS/foreign_contam.fasta \
 ## sbatch fcs_gx.sbatch
 
 # SLURM settings
