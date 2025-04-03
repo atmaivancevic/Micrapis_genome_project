@@ -3,7 +3,7 @@
 ## Script for running NanoStat on pychopper output
 ##
 ## Example usage:
-## inDir=. outDir=stats sbatch --array 0-3 nanostat_cDNA.sbatch
+## inDir=pychopper_trimmed_reads outDir=cDNA_nanostats sbatch --array 0-3 nanostat_cDNA.sbatch
 
 ## General settings
 #SBATCH -p short
