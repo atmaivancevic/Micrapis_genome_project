@@ -3,7 +3,7 @@
 ## Script for assembly polishing with Medaka
 ##
 ## Example usage:
-## reads=../reads/Aa1SG1_ONT.fastq \
+## reads=calls_default_parameters/Aa1SG1_ONT.fastq \
 ## assembly=../andreniformis_flye/assembly.fasta \
 ## outDir=../andreniformis_medaka \
 ## model=r1041_e82_400bps_sup_v5.0.0 \
