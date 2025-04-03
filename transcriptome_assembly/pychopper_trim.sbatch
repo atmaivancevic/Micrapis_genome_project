@@ -3,7 +3,7 @@
 ## Script for polishing and trimming cDNA reads with Pychopper
 ##
 ## Example usage:
-## inDir=. outDir=pychopper_trimmed_reads sbatch --array 0-3 pychopper_trim.sbatch
+## inDir=cDNA_ONT_untrimmed_reads outDir=pychopper_trimmed_reads sbatch --array 0-3 pychopper_trim.sbatch
 
 ## General settings
 #SBATCH -p long
