@@ -7,7 +7,7 @@
 ## outDir=andreniformis_FCS \
 ## taxID=7464 \
 ## reportFile=andreniformis_FCS/Aa1SG1_minLength3kb.7464.fcs_gx_report.txt \
-## cleanFasta=andreniformis_FCS/Aa1SG1_minLength3kb_final.fasta \
+## cleanFasta=final_genome/Aa1SG1_genome.fasta \
 ## contamFasta=andreniformis_FCS/foreign_contam.fasta \
 ## sbatch fcs_gx.sbatch
 
