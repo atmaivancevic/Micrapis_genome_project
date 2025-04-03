@@ -3,8 +3,8 @@
 ## Script for aligning Illumina short reads with BWA-MEM
 ## Example usage:
 ## assembly=andreniformis_medaka/consensus.fasta \
-## inDir=andreniformis_illumina_trimmed \
-## outDir=andreniformis_illumina_bam \
+## inDir=andreniformis_illumina_WGS_trimmed \
+## outDir=andreniformis_illumina_WGS_bam \
 ## sbatch --array 0-3 bwa_mem_align.sbatch
 
 ## General settings
