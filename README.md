@@ -25,7 +25,7 @@ Scripts and workflows used in
 - **Merqury** v1.3 https://github.com/marbl/merqury  
 - **RepeatMasker** v4.1.7 https://www.repeatmasker.org/
 - **FCS** v0.5.4 https://github.com/ncbi/fcs  
-- **Pychopper** v2.5.0 https://github.com/nanoporetech/pychopper  
+- **Pychopper** v2.5.0 https://github.com/epi2me-labs/pychopper
 - **Minimap2** v2.22 https://github.com/lh3/minimap2  
 - **HISAT2** v2.1.0 https://daehwankimlab.github.io/hisat2/  
 - **BRAKER3** https://github.com/Gaius-Augustus/BRAKER 
