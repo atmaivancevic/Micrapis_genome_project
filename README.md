@@ -94,7 +94,7 @@ Scripts and workflows used in
 ### Notes
 
 - All software was run with default settings unless otherwise indicated.
-- RepeatMasker v4.1.7 was configured with Tandem Repeats Finder v4.0.9 (https://tandem.bu.edu/trf/trf.html), RMBlast v2.14.0 (www.repeatmasker.org/rmblast), and Dfam Database v3.8 (https://www.dfam.org/releases/Dfam_3.8/families/).
+- RepeatMasker v4.1.7 was configured with Tandem Repeats Finder v4.0.9 (https://tandem.bu.edu/trf/trf.html), RMBlast v2.14.0 (www.repeatmasker.org/rmblast), and Dfam Database v3.8 (https://www.dfam.org/releases/Dfam_3.8/families/FamDB/).
 - Protein homology for BRAKER3 was provided using OrthoDB v12 Arthropoda dataset located here:  
   [https://bioinf.uni-greifswald.de/bioinf/partitioned_odb12](https://bioinf.uni-greifswald.de/bioinf/partitioned_odb12)
 
