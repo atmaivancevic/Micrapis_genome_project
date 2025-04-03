@@ -3,7 +3,7 @@
 ## Script for running bbduk
 ##
 ## Example usage:
-## inDir=. outDir=. sbatch --array 0-1 bbduk_trim.sbatch
+## inDir=andreniformis_illumina_RNAseq_reads outDir=andreniformis_illumina_RNAseq_trimmed sbatch --array 0-1 bbduk_trim.sbatch
 
 ## General settings
 #SBATCH -p short
