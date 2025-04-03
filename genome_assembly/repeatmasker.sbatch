@@ -4,8 +4,8 @@
 ##
 ## Example usage:
 ## species=Eukaryota \
-## outDir=../andreniformis_repeats \
-## genome=../andreniformis_pilon/Aa1SG1_minLength3kb.fasta \
+## outDir=andreniformis_repeats \
+## genome=andreniformis_pilon/Aa1SG1_minLength3kb.fasta \
 ## sbatch repeatmasker.sbatch
 
 # General settings
