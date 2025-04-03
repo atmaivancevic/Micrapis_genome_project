@@ -3,9 +3,9 @@
 ## Script for running BUSCO to assess the proteome
 ##
 ## Example usage:
-## inFile=../florea_braker_slurm/braker/braker.aa \
+## inFile=andreniformis_braker/braker/braker.aa \
 ## prefix=hymenoptera \
-## outDir=../florea_braker_slurm/busco_output \
+## outDir=andreniformis_braker/busco_proteome_output \
 ## lib=hymenoptera_odb10 \
 ## sbatch busco_proteome.sbatch
 
