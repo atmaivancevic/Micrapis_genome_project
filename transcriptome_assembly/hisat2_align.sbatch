@@ -3,9 +3,9 @@
 ## Script for running hisat2 for transcript assembly
 ##
 ## Example usage:
-## inDir=../andreniformis_illumina_trimmed \
-## outDir=../andreniformis_illumina_bams \
-## hisatIdxDir=../../1_WGS_Assembly_For_Publication/uploaded_genomes/Apis_andreniformis/index/hisat2 \
+## inDir=andreniformis_illumina_RNAseq_trimmed \
+## outDir=andreniformis_illumina_RNAseq_bams \
+## hisatIdxDir=final_genome/index/hisat2 \
 ## hisatIdx=Aa1SG1 \
 ## rnaStrandness=RF \
 ## sbatch --array 0-1 hisat2_align.sbatch
@@ -46,6 +46,7 @@ echo "Processing file: "${queries[$SLURM_ARRAY_TASK_ID]}
 
 # Note: reference assembly needs to be indexed using hisat2
 # e.g. run this if there is no existing index:
+# cd final_genome
 # hisat2-build -p 16 Aa1SG1_genome.fasta index/hisat2/Aa1SG1
 
 # Ensure output directory exists
