@@ -3,8 +3,8 @@
 ## Script for running meryl count on paired-end short reads
 ##
 ## Example usage:
-## read1=andreniformis_illumina_trimmed/Aa1SG1_Illumina_R1_trimmed.fastq.gz \
-## read2=andreniformis_illumina_trimmed/Aa1SG1_Illumina_R2_trimmed.fastq.gz \
+## read1=andreniformis_illumina_WGS_trimmed/Aa1SG1_Illumina_R1_trimmed.fastq.gz \
+## read2=andreniformis_illumina_WGS_trimmed/Aa1SG1_Illumina_R2_trimmed.fastq.gz \
 ## output=andreniformis_meryl/reads.meryl \
 ## sbatch meryl_count.sbatch
 
