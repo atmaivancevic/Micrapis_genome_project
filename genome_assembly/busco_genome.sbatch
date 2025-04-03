@@ -3,9 +3,10 @@
 ## Script for running BUSCO
 ##
 ## Example usage:
-## prefix=hymenoptera lib=hymenoptera_odb10 \
-## inFile=../andreniformis_pilon/Aa1SG1_minLength3kb.fasta \
-## outDir=../andreniformis_busco \
+## prefix=hymenoptera \
+## lib=hymenoptera_odb10 \
+## inFile=andreniformis_pilon/Aa1SG1_minLength3kb.fasta \
+## outDir=andreniformis_busco \
 ## sbatch busco_genome.sbatch
 
 # General settings
