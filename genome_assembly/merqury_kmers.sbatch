@@ -3,8 +3,8 @@
 ## Script for running Merqury to compare kmers between short reads and final assembly
 ##
 ## Example usage:
-## shortReadKmers=../andreniformis_meryl/reads.meryl \
-## assemblyFasta=../andreniformis_pilon/Aa1SG1_minLength3kb.fasta \
+## shortReadKmers=andreniformis_meryl/reads.meryl \
+## assemblyFasta=andreniformis_pilon/Aa1SG1_minLength3kb.fasta \
 ## prefix=merqury_output \
 ## sbatch merqury_kmers.sbatch
 
