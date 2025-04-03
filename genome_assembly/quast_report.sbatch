@@ -3,8 +3,8 @@
 ## Script for running QUAST to assess genome assembly quality
 ##
 ## Example usage:
-## inputFasta=../andreniformis_pilon/Aa1SG1_minLength3kb.fasta \
-## outDir=../andreniformis_quast \
+## inputFasta=andreniformis_pilon/Aa1SG1_minLength3kb.fasta \
+## outDir=andreniformis_quast \
 ## sbatch quast_report.sbatch
 
 # SLURM settings
