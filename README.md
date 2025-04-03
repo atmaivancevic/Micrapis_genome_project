@@ -77,8 +77,8 @@ Scripts and workflows used in
    5) [minimap2_align_cDNA.sbatch](transcriptome_assembly/minimap2_align_cDNA.sbatch)
 
 2. **Illumina RNA-seq processing**  
-   1) [bbduk_trim_rnaseq.sbatch](transcriptome_assembly/bbduk_trim_rnaseq.sbatch)  
-   2) [hisat2_index_align.sbatch](transcriptome_assembly/hisat2_index_align.sbatch)  
+   1) [bbduk_trim.sbatch](transcriptome_assembly/bbduk_trim.sbatch)  
+   2) [hisat2_align.sbatch](transcriptome_assembly/hisat2_index_align.sbatch)  
    3) [samtools_merge.sbatch](transcriptome_assembly/samtools_merge.sbatch)
 
 3. **Transcript assembly and gene prediction**  
