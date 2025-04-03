@@ -28,10 +28,7 @@ Scripts and workflows used in
 - **Pychopper** v2.5.0 https://github.com/nanoporetech/pychopper  
 - **Minimap2** v2.22 https://github.com/lh3/minimap2  
 - **HISAT2** v2.1.0 https://daehwankimlab.github.io/hisat2/  
-- **BRAKER3** https://github.com/Gaius-Augustus/BRAKER  
-- **StringTie2** https://github.com/gpertea/stringtie  
-- **GffRead** https://github.com/gpertea/gffread  
-- **DIAMOND** https://github.com/bbuchfink/diamond  
+- **BRAKER3** https://github.com/Gaius-Augustus/BRAKER 
 
 ---
 
