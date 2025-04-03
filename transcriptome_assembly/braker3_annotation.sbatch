@@ -3,7 +3,7 @@
 ## Script for running BRAKER3, with cDNA/RNAseq BAM files and protein sequences as extrinsic evidence
 ##
 ## Example usage:
-## inDir=../andreniformis_braker sbatch braker3_annotation.sbatch
+## inDir=andreniformis_braker sbatch braker3_annotation.sbatch
 
 ## General SLURM settings
 #SBATCH -p long
@@ -36,10 +36,10 @@ cd $inDir
 # Run BRAKER3 without softmasking to ensure TE-derived isoforms are detected
 braker.pl \
 --threads 32 \
---genome=../../1_WGS_Assembly_For_Publication/uploaded_genomes/Apis_andreniformis/Aa1SG1_genome.fasta \
+--genome=final_genome/Aa1SG1_genome.fasta \
 --species=Aandreniformis \
---prot_seq=../Arthropoda.fa \
---bam=../andreniformis_illumina_bams/Aandren_illumina_RNAseq_merged.bam,../andreniformis_ONT_bams/Aa1SG2_combined_barcode21_pychopper_output.bam,../andreniformis_ONT_bams/Aa1SG3_combined_barcode22_pychopper_output.bam
+--prot_seq=Arthropoda.fa \
+--bam=andreniformis_illumina_RNAseq_bams/merged_illumina_RNAseq.bam,andreniformis_ONT_cDNA_bams/Aa1SG2_combined_barcode21_pychopper_output.bam,andreniformis_ONT_cDNA_bams/Aa1SG3_combined_barcode22_pychopper_output.bam
 
 echo $(date +"[%b %d %H:%M:%S] BRAKER3 annotation completed!")
 
