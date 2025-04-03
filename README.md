@@ -70,9 +70,10 @@ Scripts and workflows used in
 ### Transcriptome Assembly and Annotation Workflow
 
 1. **ONT cDNA processing**  
-   1) [dorado_basecall_cDNA.sbatch](transcriptome_assembly/dorado_basecall_cDNA.sbatch)  
-   2) [pychopper_trim.sbatch](transcriptome_assembly/pychopper_trim.sbatch)  
-   3) [nanostat_cDNA_summary.sbatch](transcriptome_assembly/nanostat_cDNA_summary.sbatch)
+   1) [dorado_basecall_cDNA.sbatch](transcriptome_assembly/dorado_basecall_cDNA.sbatch)
+   2) [dorado_demux_cDNA.sbatch](transcriptome_assembly/dorado_demux_cDNA.sbatch)  
+   3) [pychopper_trim.sbatch](transcriptome_assembly/pychopper_trim.sbatch)  
+   4) [nanostat_cDNA_summary.sbatch](transcriptome_assembly/nanostat_cDNA_summary.sbatch)
 
 2. **Illumina RNA-seq processing**  
    1) [bbduk_trim_rnaseq.sbatch](transcriptome_assembly/bbduk_trim_rnaseq.sbatch)  
