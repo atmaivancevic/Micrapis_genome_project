@@ -3,7 +3,7 @@
 ## Script for running bbduk to trim adapters
 ##
 ## Example usage:
-## inDir=../andreniformis_illumina_reads outDir=../andreniformis_illumina_trimmed sbatch --array 0-3 bbduk_trim.sbatch
+## inDir=andreniformis_illumina_reads outDir=andreniformis_illumina_trimmed sbatch --array 0-3 bbduk_trim.sbatch
 
 ## General settings
 #SBATCH -p short
