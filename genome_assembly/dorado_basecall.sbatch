@@ -23,7 +23,7 @@
 
 pwd; hostname; date
 echo "dorado version: "$(dorado --version)
-echo $(date +"[%b %d %H:%M:%S] Running dorado basecallerin SUP mode...")
+echo $(date +"[%b %d %H:%M:%S] Running dorado basecaller in SUP mode...")
 
 # run dorado
 # default is to use all available GPUs (--device cuda:all)
