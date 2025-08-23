@@ -29,6 +29,13 @@ conda activate merqury_env
 pwd; hostname; date
 echo $(date +"[%b %d %H:%M:%S] Running meryl count on short reads...")
 
+# Before running, check the optimal kmer length for your genome size
+sh $MERQURY/best_k.sh 230000000 0.001
+#genome: 230000000
+#tolerable collision rate: 0.001
+#18.8707
+# i.e. best k ~19
+
 # Run meryl count
 meryl count k=21 threads=16 output $output $read1 $read2
 
