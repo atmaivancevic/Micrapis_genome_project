@@ -27,7 +27,7 @@ echo $(date +"[%b %d %H:%M:%S] Running repeatmasker...")
 # If it hasn't, run the following:
 # samtools faidx genome.fasta
 
-# Run merqury
+# Run repeatmasker
 RepeatMasker -pa 8 -species $species -noisy -xsmall -dir $outDir $genome
 
 echo $(date +"[%b %d %H:%M:%S] Done!")
